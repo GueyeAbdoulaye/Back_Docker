@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet est une application web construite avec **Nuxt 3** pour le frontend et **Laravel 11** pour le backend.
+Ce projet est une application web construite avec **Laravel 11** pour le backend.
 
 Ce site web permet d'afficher des images, de liker ou disliker ces images, et de permettre aux utilisateurs de s'inscrire pour interagir avec le site.
 
@@ -10,7 +10,6 @@ Ce site web permet d'afficher des images, de liker ou disliker ces images, et de
 
 ## Technologies
 
-- **Frontend** : Nuxt 3
 - **Backend** : Laravel 11
 - **Containerisation** : Docker, Docker Compose
 
@@ -98,9 +97,9 @@ Avant de commencer, assurez-vous d'avoir installé les outils suivants sur votre
   ```bash
   docker-compose down
   ```
-- Telecharger Docker Desktop 
+- **Telecharger Docker Desktop**
 
-  aller dans Exec et mettre
+  aller dan le terminal du conteneur WEB et mettre
   ```
   php artisan migrate
   ```
